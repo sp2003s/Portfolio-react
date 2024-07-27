@@ -6,3 +6,7 @@
 :root {
     font-family: "Inter", sans-serif;
 }
+
+.form-input{
+    @apply border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-gray-400 block w-full p-3 bg-zinc-400/20 border-zinc-700/50 placeholder:text-gray-300/50 text-gray-300/50
+}

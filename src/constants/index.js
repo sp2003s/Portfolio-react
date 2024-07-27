@@ -76,7 +76,5 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Zeta-I, Greater Noida, Uttar Pradesh",
-  phoneNo: "+91 981-872-5398",
-  email: "shauryajt3455@gmail.com",
+  intro: "I would love to hear from you."
 };
