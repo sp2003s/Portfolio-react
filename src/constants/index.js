@@ -1,7 +1,9 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project2 from "../assets/projects/project-2.webp";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
+import project6 from "../assets/projects/project-6.png";
 
 export const HERO_CONTENT = `I am a dedicated and enthusiastic Software Engineer with a strong foundation in both front-end and back-end technologies. With hands-on experience gained through internships and academic projects, I have developed a solid skill set in technologies like React, Django, Node.js, MySQL, and MongoDB, as well as expertise in AI and machine learning. My education at Vellore Institute of Technology has further honed my abilities in various programming languages and tools.`;
 
@@ -41,7 +43,7 @@ export const PROJECTS = [
   },
   {
     title: "Wild Connect",
-    image: project2,
+    image: project3,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "JavaScript", "Node.JS", "Express.js"],
@@ -57,7 +59,7 @@ export const PROJECTS = [
   },
   {
     title: "Disinformation Detection",
-    image: project3,
+    image: project2,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "Flask", "Python", "File Handling"],
@@ -65,7 +67,7 @@ export const PROJECTS = [
   },
   {
     title: "Linked List Visualizer",
-    image: project4,
+    image: project5,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "React"],
@@ -73,7 +75,7 @@ export const PROJECTS = [
   },
   {
     title: "Music Recommender",
-    image: project4,
+    image: project6,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["Streamlit.io", "Python", "Count Vectorization", "Machine Learning"],

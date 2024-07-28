@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../assets/kevinRushLogo.png";
 import { FaEnvelope, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
