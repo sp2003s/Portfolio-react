@@ -13,9 +13,9 @@ const Hero = () => {
     return(
         <div className="border-b border-neutral-900 pb-4 lg:mb-35">
 
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center text-center">
                 <div className="w-full lg:w-1/2">
-                    <div className="flex flex-col items-center lg:items-start">
+                    <div className="flex flex-col items-center">
                         <motion.h1 
                         variants={container(0.2)}
                         initial = "hidden"
@@ -37,15 +37,6 @@ const Hero = () => {
                         className="my-2 max-w-xl py-6 font-light">
                             {HERO_CONTENT}
                         </motion.p>
-                    </div>
-                </div>
-                <div className="w-full lg:w-1/2 lg:p-8">
-                    <div className="flex justify-center">
-                        <motion.img 
-                        initial= {{x: 100, opacity: 0}}
-                        animate= {{x: 0, opacity: 1}}
-                        transition= {{duration:0.5, delay: 0.6}}
-                        src={profilePic} alt="" />
                     </div>
                 </div>
             </div>
