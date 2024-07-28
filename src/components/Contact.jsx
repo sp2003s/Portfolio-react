@@ -66,7 +66,7 @@ const Contact = () => {
                     name="name"
                     id="name"
                     onChange={onChangeHandler}
-                    className="form-input"
+                    className="form-input hover:bg-zinc-900"
                     placeholder="Enter your Name"
                     value={data.name}
                   />
@@ -76,8 +76,9 @@ const Contact = () => {
                     type="email"
                     name="email"
                     id="email"
+                    required
                     onChange={onChangeHandler}
-                    className="form-input"
+                    className="form-input hover:bg-zinc-900"
                     placeholder="Enter your Email"
                     value={data.email}
                   />
@@ -86,7 +87,8 @@ const Contact = () => {
                 <textarea
                   name="message"
                   id="message"
-                  className="form-input"
+                  required
+                  className="form-input hover:bg-zinc-900"
                   placeholder="Enter your Message"
                   onChange={onChangeHandler}
                   rows="8"
