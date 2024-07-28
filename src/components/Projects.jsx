@@ -35,7 +35,7 @@ const Projects = () => {
               />
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              <h6 className="mb-2 font-semibold">{project.title} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span className="text-sm font-normal underline">GitHub</span></h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               <div className="flex flex-wrap">
                 {project.technologies.map((tech, techIndex) => (
