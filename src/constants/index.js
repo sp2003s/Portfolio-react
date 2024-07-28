@@ -37,6 +37,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["EJS", "CSS", "Node.js", "MongoDB", "Express.JS", "mySQL", "Passport.js"],
+    link: "https://github.com/sp2003s/TravelBuddyFinder",
   },
   {
     title: "Wild Connect",
@@ -44,6 +45,7 @@ export const PROJECTS = [
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["HTML", "CSS", "JavaScript", "Node.JS", "Express.js"],
+    link: "https://github.com/sp2003s/Wild-Connect",
   },
   {
     title: "Notes Summarizer",
@@ -51,6 +53,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Django", "openCV", "OCR", "llama"],
+    link: "https://github.com/sp2003s/Notes-Summarizer",
   },
   {
     title: "Disinformation Detection",
@@ -58,6 +61,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "Flask", "Python", "File Handling"],
+    link: "https://github.com/sp2003s/detecting-disinformation",
   },
   {
     title: "Linked List Visualizer",
@@ -65,6 +69,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "React"],
+    link: "https://github.com/sp2003s/ll-visualizer",
   },
   {
     title: "Music Recommender",
@@ -72,6 +77,7 @@ export const PROJECTS = [
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["Streamlit.io", "Python", "Count Vectorization", "Machine Learning"],
+    link: "https://github.com/sp2003s/music-recommendation-system-using-vectorization",
   },
 ];
 
