@@ -36,7 +36,7 @@ const Technologies = () => {
                 className="flex flex-wrap items-center justify-center gap-4">
 
                 <motion.div
-                    variants={iconVariants(3)}
+                    variants={iconVariants(2)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -50,7 +50,7 @@ const Technologies = () => {
                     <FaJava className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(3)}
+                    variants={iconVariants(2)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -64,7 +64,7 @@ const Technologies = () => {
                     <FaHtml5 className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(3)}
+                    variants={iconVariants(2)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -78,7 +78,7 @@ const Technologies = () => {
                     <DiJavascript1 className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(3)}
+                    variants={iconVariants(2)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -92,7 +92,7 @@ const Technologies = () => {
                     <SiDjango className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(3)}
+                    variants={iconVariants(2)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -106,7 +106,7 @@ const Technologies = () => {
                     <SiMongodb className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(3)}
+                    variants={iconVariants(2)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -120,7 +120,7 @@ const Technologies = () => {
                     <SiBootstrap className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(3)}
+                    variants={iconVariants(2)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
@@ -134,14 +134,14 @@ const Technologies = () => {
                     <FaGitAlt className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(3)}
+                    variants={iconVariants(2)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiOpencv className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(3)}
+                    variants={iconVariants(4)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
