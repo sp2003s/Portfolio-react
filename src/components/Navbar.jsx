@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/kevinRushLogo.png";
 import { FaEnvelope, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 const Navbar = () => {
   return (
@@ -22,11 +23,11 @@ const Navbar = () => {
           <FaGithub />
         </a>
         <a
-          href="https://www.instagram.com/_shauryapsingh_.26/"
+          href="https://leetcode.com/u/sps_2003/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaInstagram />
+          <SiLeetcode />
         </a>
         <a
           href="mailto:shauryajt3455@gmail.com"
