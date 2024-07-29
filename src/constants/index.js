@@ -37,7 +37,7 @@ export const PROJECTS = [
     title: "Travel Buddy Finder",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A fully functional website to address the challenges of solo travel, high costs, and missed opportunities for meaningful connections.",
     technologies: ["EJS", "CSS", "Node.js", "MongoDB", "Express.JS", "mySQL", "Passport.js"],
     link: "https://github.com/sp2003s/TravelBuddyFinder",
   },
@@ -45,7 +45,7 @@ export const PROJECTS = [
     title: "Wild Connect",
     image: project3,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "A website to connect poeple willing to volunteer to protect and preserve wildlife. Allows posting such events, jobs and materials.",
     technologies: ["HTML", "CSS", "JavaScript", "Node.JS", "Express.js"],
     link: "https://github.com/sp2003s/Wild-Connect",
   },
@@ -53,7 +53,7 @@ export const PROJECTS = [
     title: "Notes Summarizer",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "A Django Web Application to summarize notes. Be it text or image PDF, the application can summarize it and return a PDF.",
     technologies: ["HTML", "CSS", "Django", "openCV", "OCR", "llama"],
     link: "https://github.com/sp2003s/Notes-Summarizer",
   },
@@ -61,7 +61,7 @@ export const PROJECTS = [
     title: "Disinformation Detection",
     image: project2,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A webapp to detect disinformation and its sensitivity. Includes Python algorithm to verify news",
     technologies: ["HTML", "CSS", "Flask", "Python", "File Handling"],
     link: "https://github.com/sp2003s/detecting-disinformation",
   },
@@ -69,7 +69,7 @@ export const PROJECTS = [
     title: "Linked List Visualizer",
     image: project5,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "A visual representation of linked list data structure, allowing users to interact with and manipulate the list by adding, modifying, and deleting nodes",
     technologies: ["HTML", "CSS", "React"],
     link: "https://github.com/sp2003s/ll-visualizer",
   },
@@ -77,7 +77,7 @@ export const PROJECTS = [
     title: "Music Recommender",
     image: project6,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "Built a music recommender using ML vectorization on a Kaggle dataset, with a Streamlit.io frontend.",
     technologies: ["Streamlit.io", "Python", "Count Vectorization", "Machine Learning"],
     link: "https://github.com/sp2003s/music-recommendation-system-using-vectorization",
   },
