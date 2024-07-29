@@ -5,19 +5,19 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 
-export const HERO_CONTENT = `I am a dedicated and enthusiastic Software Engineer with a strong foundation in both front-end and back-end technologies. With hands-on experience gained through internships and academic projects, I have developed a solid skill set in technologies like React, Django, Node.js, MySQL, and MongoDB, as well as expertise in AI and machine learning. My education at Vellore Institute of Technology has further honed my abilities in various programming languages and tools.`;
+export const HERO_CONTENT = `I am a dedicated and enthusiastic Software Engineer with a strong foundation in both front-end and back-end technologies. With hands-on experience gained through internships and academic projects, I have developed a solid skill set in technologies like React, Django, Node.js, MySQL, and MongoDB, as well as expertise in AI and machine learning.`;
 
-export const ABOUT_TEXT = `I am Shaurya Pratap Singh, an Information Technology student at Vellore Institute of Technology with a strong academic record (CGPA: 9.11). Proficient in languages like C++, Java, and Python. My experience includes a Python and Django internship at BlackBox IP and creating innovative projects like a travel companion matching platform and a music recommender system. With certifications in Python and Machine Learning, I am passionate about solving real-world problems through technology and continuous learning. Additionally, I have a keen interest in machine learning, data science, and cyber forensics, where I have successfully applied my skills in various hackathons and research initiatives. My goal is to leverage my technical expertise and problem-solving abilities to contribute to cutting-edge technological advancements and impactful solutions.`;
+export const ABOUT_TEXT = `I am Shaurya Pratap Singh, an Information Technology student at Vellore Institute of Technology. Proficient in languages like C++, Java, and Python. My experience includes a Python and Django internship at BlackBox IP and creating innovative projects like a travel companion matching platform and a music recommender system. I am passionate about solving real-world problems through technology and continuous learning. Additionally, I have a keen interest in machine learning and data science, where I have successfully applied my skills in various hackathons and research initiatives.`;
 
 export const EXPERIENCES = [
   {
     year: "Aug 2023 - Sept 2023",
     role: "Python Programmer and Django Developer",
-    company: "BlackBox IP, Noida",
+    company: "BlackBox IP",
     description: `Developed advanced OCR solutions to extract structured data from image PDFs, with more than 98% accuracy and reducing manual data entry. 
     Created algorithm for efficient data extraction, processing and storage, enhancing accuracy and saving time and resources. 
     Led API development integrating secure access via JWT Web Token and deploying the
-    application using elastic IP for streamlined workflow efficiency`,
+    application using elastic IP for streamlined workflow efficiency.`,
     technologies: ["Python", "PyTesseract(OCR)", "OpenCV", "Django", "JWT Web Token"],
   },
   {
@@ -27,7 +27,7 @@ export const EXPERIENCES = [
     description: `Worked on minor projects to brush-up skills.
       I worked closely with other members to brainstorm and develop new ideas and work on them for hackathons 
       organized by the chapter. We focused on creating feasible and innovative ideas
-      I contributed to various projects that were a part of chapter events`,
+      I contributed to various projects that were a part of chapter events.`,
     technologies: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB", "Web Development"],
   },
 ];
