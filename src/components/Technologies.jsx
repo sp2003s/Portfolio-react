@@ -1,7 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { FaJava, FaPython, FaHtml5, FaCss3Alt, FaNodeJs, FaGithub, FaGitAlt } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
-import { SiDjango, SiMongodb, SiMysql, SiBootstrap, SiOpencv, SiTensorflow, SiCplusplus, SiTailwindcss } from "react-icons/si";
+import { SiDjango, SiMongodb, SiMysql, SiBootstrap, SiOpencv, SiTensorflow, SiCplusplus, SiTailwindcss, SiPowerbi } from "react-icons/si";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -171,6 +171,15 @@ const Technologies = () => {
                     className="tech-icon"
                     title="Tailwind CSS">
                     <SiTailwindcss className="text-6xl text-cyan-400" />
+                </motion.div>
+
+                <motion.div
+                    variants={iconVariants(4)}
+                    initial="initial"
+                    animate="animate"
+                    className="tech-icon"
+                    title="PowerBI">
+                    <SiPowerbi className="text-6xl text-cyan-400" />
                 </motion.div>
             </motion.div>
         </div>
