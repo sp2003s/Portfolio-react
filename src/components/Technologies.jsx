@@ -105,7 +105,7 @@ const Technologies = () => {
                     animate="animate"
                     className="tech-icon"
                     title="React">
-                    <RiReactjsLine className="text-7xl text-cyan-400" />
+                    <RiReactjsLine className="text-6xl text-cyan-400" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(4)}
