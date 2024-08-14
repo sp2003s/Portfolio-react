@@ -4,6 +4,7 @@ import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
+import project7 from "../assets/projects/project-7.png";
 
 export const HERO_CONTENT = `I am a dedicated and enthusiastic Software Engineer with a strong foundation in both front-end and back-end technologies. With hands-on experience gained through internships and academic projects, I have developed a solid skill set in technologies like React, Django, Node.js, MySQL, and MongoDB, as well as expertise in AI and machine learning.`;
 
@@ -80,6 +81,14 @@ export const PROJECTS = [
       "Built a music recommender using ML vectorization on a Kaggle dataset, with a Streamlit.io frontend.",
     technologies: ["Streamlit.io", "Python", "Count Vectorization", "Machine Learning"],
     link: "https://github.com/sp2003s/music-recommendation-system-using-vectorization",
+  },
+  {
+    title: "Tic Tac Toe",
+    image: project7,
+    description:
+      "A small Tic Tac Toe game made using React.",
+    technologies: ["HTML", "CSS", "JavaScript", "React"],
+    link: "https://github.com/sp2003s/tic-tac-toe-react",
   },
 ];
 
