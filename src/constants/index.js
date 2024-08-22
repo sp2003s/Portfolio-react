@@ -95,3 +95,21 @@ export const PROJECTS = [
 export const CONTACT = {
   intro: "I would love to hear from you."
 };
+
+export const CERTIFICATES = [
+  {
+    title: "Python3: From Beginner to Pro",
+    issuer: "Udemy",
+    link: "https://drive.google.com/file/d/1nmb_iDlHzX1hQecdWV8g5iWD0HS5YBzH/view",
+  },
+  {
+    title: "Machine Learning A-Z: AI, Python & R + ChatGPT[2023]",
+    issuer: "Udemy",
+    link: "https://drive.google.com/file/d/1A5n1cIJ1BTVJYk9s3LKCaAOK5sVy1ejR/view",
+  },
+  {
+    title: "Introduction to Deep Learning & Neural Networks with Keras",
+    issuer: "IBM (Coursera)",
+    link: "https://www.coursera.org/account/accomplishments/verify/XTU7DSPKB388",
+  },
+];

@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Analytics } from "@vercel/analytics/react"
+import Certificates from './components/Certificates';
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Experience />
         <Projects />
         < ToastContainer />
+        <Certificates />
         <Contact />
       </div>
       
