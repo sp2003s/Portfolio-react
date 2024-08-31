@@ -2,29 +2,27 @@ import React from "react";
 import { FaEnvelope, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 
-const Navbar = () => {
+const Navbar = ({openLink}) => {
+
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
       <div className="flex-grow"></div>
       <div className="m-8 flex items-center justify-end gap-4 text-2xl">
         <a
-          href="https://www.linkedin.com/in/shaurya-pratap-singh-/"
-          target="_blank"
-          rel="noopener noreferrer"
+          onClick={() => {openLink("https://www.linkedin.com/in/shaurya-pratap-singh-/")}}
+          className="cursor-pointer"
         >
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/sp2003s"
-          target="_blank"
-          rel="noopener noreferrer"
+          onClick={() => {openLink("https://github.com/sp2003s")}}
+          className="cursor-pointer"
         >
           <FaGithub />
         </a>
         <a
-          href="https://leetcode.com/u/sps_2003/"
-          target="_blank"
-          rel="noopener noreferrer"
+          onClick={() => {openLink("https://leetcode.com/u/sps_2003/")}}
+          className="cursor-pointer"
         >
           <SiLeetcode />
         </a>
