@@ -5,6 +5,7 @@ import project4 from "../assets/projects/project-4.jpg";
 import project5 from "../assets/projects/project-5.png";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.png";
+import image8 from  "../assets/projects/image8.jpg";
 
 export const HERO_CONTENT = `I am a dedicated and enthusiastic Software Engineer with a strong foundation in both front-end and back-end technologies. With hands-on experience gained through internships and academic projects, I have developed a solid skill set in technologies like React, Django, Node.js, MySQL, and MongoDB, as well as expertise in AI and machine learning.`;
 
@@ -41,6 +42,14 @@ export const PROJECTS = [
       "A fully functional website to address the challenges of solo travel, high costs, and missed opportunities for meaningful connections.",
     technologies: ["EJS", "CSS", "Node.js", "MongoDB", "Express.JS", "mySQL", "Passport.js"],
     link: "https://github.com/sp2003s/TravelBuddyFinder",
+  },
+  {
+    title: "Spotify Clone",
+    image: image8,
+    description:
+      "A MERN stack project, tried cloning Spotify",
+    technologies: ["React", "MongoDB", "Tailwind CSS", "Cloudinary", "NodeJS", "ExpressJS"],
+    link: "https://github.com/sp2003s/spotify-clone-react",
   },
   {
     title: "Wild Connect",
